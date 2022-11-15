@@ -1,0 +1,105 @@
+.my-body {
+    padding: 4% 2%;
+}
+
+
+.sedan {
+    background-color: var(--primary-1);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+.sedan a {
+    color: var(--primary-1);
+}
+
+.suv {
+    background-color: var(--primary-2);
+}
+
+.suv a {
+    color: var(--primary-2);
+}
+
+.luxury {
+    background-color: var(--primary-3);
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+}
+
+.luxury a {
+    color: var(--primary-3);
+}
+
+.more {
+    display: block;
+    background-color: var(--neutral-2);
+    border: 2px solid var(--neutral-2);
+    border-radius: 2em;
+    font-weight: 700;
+    width: 70%;
+    padding: .8em 1em;
+    text-align: center;
+    transition: all .7s ease-in-out;
+}
+
+.more:hover {
+    background-color: transparent;
+    color: var(--neutral-2);
+}
+
+.seccion {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.seccion img {
+    width: initial;
+}
+
+.main-title {
+    margin: .8em 0;
+}
+
+.main-text {
+    text-align: left;
+    line-height: 1.7em;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+
+/* Media Query-Diseño Desktop viewport height */
+
+@media (min-width: 375px) {
+    .my-body {
+        display: flex;
+        min-height: 100vh;
+        padding: 0 3%;
+    }
+
+    .container {
+        display: flex;
+        margin: auto;
+        max-width: var(--max-width-desktop);
+        min-height: 80vh;
+
+    }
+
+    .sedan {
+
+        border-top-left-radius: var(--border-radius);
+        border-bottom-left-radius: var(--border-radius);
+        border-top-right-radius: 0;
+    }
+
+    .luxury {
+        border-top-right-radius: var(--border-radius);
+        border-bottom-right-radius: var(--border-radius);
+        border-bottom-left-radius: 0;
+    }
+
+}
