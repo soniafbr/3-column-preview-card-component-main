@@ -78,7 +78,7 @@
     .my-body {
         display: flex;
         min-height: 100vh;
-        padding: 0 3%;
+        padding: 0 5%;
     }
 
     .container {
