@@ -36,6 +36,7 @@
     background-color: var(--neutral-2);
     border: 2px solid var(--neutral-2);
     border-radius: 2em;
+    font-size: 1.2em;
     font-weight: 700;
     width: 70%;
     padding: .8em 1em;
@@ -52,7 +53,7 @@
     padding: 3em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
 }
 
@@ -66,7 +67,8 @@
 
 .main-text {
     text-align: left;
-    line-height: 1.7em;
+    font-size: 1.4em;
+    line-height: 1.9em;
     margin-top: 0;
     margin-bottom: 2em;
 }
@@ -78,15 +80,13 @@
     .my-body {
         display: flex;
         min-height: 100vh;
-        padding: 0 5%;
+        padding: 10% 20%;
     }
 
     .container {
         display: flex;
-        margin: auto;
+        margin: 0 auto;
         max-width: var(--max-width-desktop);
-        min-height: 80vh;
-
     }
 
     .sedan {
